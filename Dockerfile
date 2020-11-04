@@ -8,6 +8,6 @@ RUN apt-get install -y build-essential inotify-tools less default-mysql-client n
 
 WORKDIR /app
 
-COPY run.sh /app/run.sh
+COPY run.sh .
 
 EXPOSE 3000
