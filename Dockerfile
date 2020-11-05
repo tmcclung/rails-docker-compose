@@ -10,4 +10,6 @@ WORKDIR /app
 
 COPY run.sh .
 
+RUN chmod +x run.sh
+
 EXPOSE 3000
